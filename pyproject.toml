@@ -1,0 +1,16 @@
+[project]
+name = "github-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+]
+
+[tool.uv.workspace]
+members = [
+    "customer_churn_prediction",
+]
