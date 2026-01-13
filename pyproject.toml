@@ -9,8 +9,3 @@ dependencies = [
     "numpy>=2.4.1",
     "pandas>=2.3.3",
 ]
-
-[tool.uv.workspace]
-members = [
-    "customer_churn_prediction",
-]
